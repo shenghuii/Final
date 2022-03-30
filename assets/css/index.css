@@ -1,0 +1,363 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: #333;
+}
+.maintitle {
+  display: none;
+}
+.recommendmenu {
+  margin: auto;
+  height: auto;
+}
+.recommendtitlewrapper h3 {
+  margin-left: 30px;
+  color: #3d7322;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.listwrapper {
+  display: none;
+}
+.showstuff {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+.showstuff {
+  display: grid;
+}
+.banner-pic {
+  object-fit: cover;
+  width: 100%;
+  margin: auto;
+  margin-right: 10px;
+}
+.star img {
+  width: 16px;
+}
+.titletext {
+  font-size: 18px;
+  font-weight: 700;
+}
+.review {
+  display: flex;
+  justify-content: flex-start;
+}
+.pretime {
+  display: flex;
+  justify-content: flex-start;
+}
+.smalltext {
+  font-size: 12px;
+}
+
+.select {
+  position: relative;
+  width: 60px;
+  margin: auto;
+  top: -12px;
+}
+
+.allwrapper {
+  background-color: white;
+  width: auto;
+  padding: 0 0 30px 0px;
+  border-radius: 4px;
+}
+
+/* select & search */
+.sub-header {
+  padding: 0 15px 0 15px;
+  position: relative;
+  top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+div .sticky {
+  width: 100%+60px;
+  background-color: white;
+  z-index: 1;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 50px;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown button {
+  height: 40px;
+  background-color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 0px 20px 0px 20px;
+}
+
+.search {
+  display: flex;
+}
+
+.searchterm {
+  display: none;
+}
+
+/* there is a problem here */
+.searchbutton {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchbutton img {
+  align-items: center;
+  margin: auto;
+}
+
+/* items grid */
+.itemwrapper {
+  padding: 0 30px 0 30px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+}
+.item-descriptionwrapper {
+  position: relative;
+  max-width: 100%;
+}
+
+.add-icon {
+  position: absolute;
+  top: -45px;
+  left: 10px;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.add-icon:hover {
+  width: 64px;
+}
+
+.item-pic > img {
+  max-width: 100%;
+}
+
+.price {
+  display: inline;
+  font-weight: 600;
+}
+
+.name {
+  font-weight: 200;
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+.loadmore-button {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  background-color: white;
+  border: solid black 1px;
+  border-radius: 4px;
+  height: 40px;
+  width: 120px;
+}
+.loadmore-button:hover {
+  background-color: rgb(231, 231, 231);
+  font-weight: 600;
+}
+/* items grid end */
+
+/* modal:I still don't know how to do this...*/
+.modal-dialog {
+  position: relative;
+  top: 45px;
+  height: 60px;
+  display: inline;
+}
+.modal-header button {
+  display: inline;
+}
+.modal-header div {
+  display: inline-block;
+  grid-column: 3fr 1fr;
+  column-gap: 30px;
+}
+.searchtext {
+  width: 90%;
+}
+.close {
+  float: none;
+  position: relative;
+}
+/* modal end */
+
+/* receipt card */
+.receipe-card[data-receipe-name] {
+  display: none;
+}
+
+.receipe-card[data-receipe-name='Banana Oatmeal Pancakes'] {
+  display: flex;
+}
+/* receipt card */
+
+@media (min-width: 768px) {
+  .maintitle {
+    display: block;
+    max-width: 790px;
+    margin: auto;
+  }
+  h2 {
+    font-size: 50px;
+    color: #3d7322;
+    font-weight: 700;
+    margin-top: 36px;
+    margin-bottom: 24px;
+  }
+  .navbar > .container-fluid .navbar-brand {
+    margin: none;
+    margin-left: 16px;
+  }
+  .recommendtitlewrapper {
+    display: none;
+  }
+  .recommendmenu {
+    max-width: 790px;
+    margin: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .listwrapper {
+    display: grid;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .showstuff {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 0%;
+  }
+  .list {
+    background-color: #ebebeb;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-left: 8px;
+  }
+  .listactive {
+    background-color: #719f5a;
+  }
+
+  .list p {
+    font-size: 10px;
+    margin-left: 8px;
+    position: relative;
+    top: 8px;
+  }
+  .listactive p {
+    font-size: 12px;
+    color: white;
+    font-weight: 800;
+  }
+  .showstuff {
+    display: flex;
+  }
+  .banner-pic {
+    object-fit: cover;
+    width: 300px;
+    height: 100%;
+    margin: auto;
+    margin-right: 10px;
+  }
+  .star img {
+    width: 16px;
+  }
+  .titletext {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .review {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .pretime {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .smalltext {
+    font-size: 12px;
+  }
+  .select {
+    display: none;
+  }
+
+  .allwrapper {
+    max-width: 790px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  .itemwrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+  }
+
+  .search {
+    width: 160px;
+    display: flex;
+  }
+
+  .searchterm {
+    display: inline;
+    width: 100%;
+    padding: 5px;
+    height: 40px;
+    border: none;
+    background-color: hsl(0, 0%, 97%);
+    border-radius: 4px 0px 0px 4px;
+    outline: none;
+  }
+
+  .searchbutton {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #efefef;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+
+  .searchbutton img {
+    align-items: center;
+  }
+
+  div .sticky {
+    position: relative;
+    top: 0px;
+    box-shadow: none;
+  }
+}

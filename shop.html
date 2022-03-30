@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/shop.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                        <span class="sr-only">exchange</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+
+                    </button>
+                    <img src="./assets/img/Laptop/Group.png" alt="logo" class="navbar-brand">
+                    <a class="navbar-brand" href="./welcom.html">Hmeal</a>
+                    <div class="activepage">SHOP</div>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-right" id="example-navbar-collapse">
+                    <ul class="nav navbar-nav ">
+                        <li><a href="./index.html">Menu</a></li>
+                        <li class="active"><a href="./shop.html">Shop</a></li>
+                        <li><a href="./cart.html">Cart</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Mine <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Health Data</a></li>
+                                <li><a href="#">Order</a></li>
+                                <li><a href="#">Report</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Switch account</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Log out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="maintitle">
+            <h2>SHOP</h2>
+        </div>
+        <div class="allwrapper">
+            <div class="sticky">
+                <div class="sub-header ">
+                    <div>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <button>Fresh Vege</button> <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><button>Precut Vege</button></a></li>
+                                    <li><a href="#"><button>Salads</button></a></li>
+                                    <li><a href="#"> <button>Meats</button></a></li>
+                                    <li><a href="#"> <button>Fruits</button></a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search">
+                        <input type="text" class="searchterm">
+                        <button type="submit" class="searchbutton btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                            <img src="./assets/img/search.png" alt="">
+                        </button>
+
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div><input type="text" class="searchterm"></div>
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itemwrapper">
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/bell-peper.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Mixed Bell Pepper</p>
+                            <p class="price">$2.92</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/roma-tomatoes.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Roma Tomatoes, each</p>
+                            <p class="price">$0.29</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/cucumber.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Cucumber, 1 Each</p>
+                            <p class="price">$2.92</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/celery-stalk.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Celery Stalk</p>
+                            <p class="price">$1.34</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/lettuce.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Iceberg Lettuce</p>
+                            <p class="price">$1.48</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/onion.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Yellow Onion 3lb Bag</p>
+                            <p class="price">$1.88</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/tomatoes.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Tomatoes On The Vine</p>
+                            <p class="price">$1.98</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/zucchini.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Zucchini, 1Each</p>
+                            <p class="price">$0.81</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/slice-mushroom.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Sliced Mushroom, 8 oz</p>
+                            <p class="price">$2.08</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/whole-carrots.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Whole Carrots, 16 oz</p>
+                            <p class="price">$0.82</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/broccoli-crowns.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Broccoli Crowns, per lb</p>
+                            <p class="price">$1.34</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/asparagus.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Asparagus,Bunch</p>
+                            <p class="price">$2.92</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/grape-tomatoes.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Grape Tomatoes,10 oz</p>
+                            <p class="price">$1.97</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <a href="#"><img src="./assets/img/shop-items/cauliflower.jpg" alt=""></a>
+                    <div class="item-descriptionwrapper">
+                        <a href=""><img src="./assets/img/add-icon.png" alt="" class="add-icon"></a>
+                        <div class="item-description">
+                            <p class="name">Cauliflower</p>
+                            <p class="price">$2.88</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button class="loadmore-button">Load more</button>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>
+                <b>ABOUT US</b>
+                <br>
+                Heall can help you easily healthify your daily meals and assist you in keeping your family members in good health. © 2021 all rights reserved.
+            </p>
+            <div class="media-source">
+                <a href=" ">
+                    <img src="./assets/img/Laptop/Instagram.png" alt="social media icon" width="22" height="22">
+                </a>
+                <a href="https://www.twitter.com/">
+                    <img src="./assets/img/Laptop/twitter.png" alt="social media icon" width="25" height="25">
+                </a>
+                <a href="https://www.linkedin.com/">
+                    <img src="./assets/img/Laptop/linkedin.png" alt="social media icon" width="20" height="20">
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./assets/js/shop.js"></script>
+</body>
+</html>

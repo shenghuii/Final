@@ -1,0 +1,140 @@
+h1 {
+  padding-top: 20px;
+  color: #719f5a;
+  font-weight: bold;
+}
+
+h5 {
+  color: grey;
+  margin-top: 0.3em;
+}
+
+.method {
+  width: 100%;
+  display: inline-grid;
+  grid-column: 1fr 1fr;
+}
+
+.pay {
+  display: flex;
+}
+
+.apple {
+  padding-left: 20px;
+  display: flex;
+}
+
+.visa {
+  padding-left: 20px;
+  display: flex;
+}
+
+span {
+  padding-left: 10px;
+}
+
+.checkbox {
+  /*margin: 0 !important;*/
+  -webkit-appearance: none;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background: #f8f7f7;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+input[type='radio'] {
+  margin: 0px;
+}
+
+.checkbox:checked {
+  background: #e79637;
+}
+
+.info1 {
+  width: 370px;
+  border: none;
+  border-radius: 4px;
+  grid-gap: 10px;
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.info2 {
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  padding-top: 10px;
+  display: inline-grid;
+}
+
+.total {
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info3 {
+  width: 100px;
+  color: grey;
+  text-align: left;
+}
+
+.info4 {
+  text-align: right;
+  color: grey;
+}
+
+.confirm {
+  border: none;
+  background-color: #e79637;
+  box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 38px;
+  align-items: center;
+  border-radius: 4px;
+  color: white;
+  font-weight: 36px;
+  margin-top: 10px;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+.info2 :hover {
+  color: #e79637;
+}
+
+.info1 :hover {
+  background-color: #e79637;
+  border-radius: 4px;
+  border: none;
+}
+
+.info1 :after {
+  background-color: #e79637;
+  border-radius: 4px;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: #f2f2f2;
+  }
+
+  .check {
+    width: 790px;
+    background-color: white;
+    margin: auto;
+  }
+  .info2 {
+    display: inline;
+  }
+  .content {
+    margin: 0 30px 0 30px;
+    padding-bottom: 30px;
+  }
+}

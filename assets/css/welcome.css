@@ -1,0 +1,226 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Staatliches', cursive; */
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */
+p,
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+.services-intro {
+  max-width: 350px;
+  margin: auto;
+  height: 200px;
+  padding-top: 44px;
+}
+.services-intro-title {
+  font-family: 'Staatliches', cursive;
+  font-size: 64px;
+  color: #3d7322;
+}
+
+.services-intro-detail {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  margin-top: -2px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+}
+
+.intro-card {
+  margin-bottom: 28px;
+}
+.intro-card img {
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.intro-card p {
+  margin-bottom: 27px;
+}
+
+.log-in {
+  height: 400px;
+  position: relative;
+  padding-top: 32px;
+}
+
+.log-in-background {
+  position: absolute;
+  background-size: contain;
+  width: 100vw;
+  left: -15px;
+  top: -9px;
+  z-index: -1;
+}
+.log-in-card {
+  padding-top: 18px;
+  padding-bottom: 20px;
+}
+.log-in-intro-smallword {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  margin-bottom: 2px;
+}
+.log-in-intro-title {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  color: #3d7322;
+}
+.log-in-function {
+  width: 290px;
+  margin: auto;
+  margin-top: 8px;
+}
+label {
+  display: block;
+  margin-bottom: 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+input {
+  width: 290px;
+  height: 32px;
+  margin-bottom: 8px;
+}
+.log-in-button {
+  width: 290px;
+  background-color: #719f5a;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.log-in-others {
+  width: 290px;
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.log-in-others p {
+  display: inline;
+  color: #999;
+}
+
+.layui-input-inline {
+  position: relative;
+}
+.fa {
+  position: absolute;
+  display: inline-block;
+  right: 8px;
+  top: 7.5px;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+.none {
+  display: none;
+}
+
+@media (min-width: 786px) {
+  main {
+    height: 100vh;
+  }
+  .centerbox {
+    position: relative;
+    top: 45%;
+    transform: translate(0, -50%);
+  }
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  .services-intro {
+    height: 130px;
+    padding: 0px;
+    max-width: none;
+    margin: none;
+  }
+  .services-intro-title {
+    margin-top: -10px;
+  }
+  .services-intro-detail {
+    font-size: 24px;
+  }
+  .intro-cardwrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    height: 370px;
+  }
+  .intro-card {
+    width: 220px;
+    height: 250px;
+    padding: 6px;
+    margin: 0px;
+  }
+  .intro-card img {
+    max-width: 210px;
+    margin: auto;
+  }
+  .intro-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 5px;
+  }
+  .intro-card p {
+    font-weight: 200;
+  }
+
+  .log-in {
+    height: 370px;
+    padding: 0px;
+    padding-left: 50px;
+    border-left: solid #c4c4c4 2px;
+  }
+  .log-in-card {
+    max-width: 330px;
+    margin: 0px;
+    height: 370px;
+    padding: 0px;
+  }
+  .log-in-background {
+    display: none;
+  }
+  .log-in-intro {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .log-in-others {
+    margin-top: 20px;
+  }
+}
